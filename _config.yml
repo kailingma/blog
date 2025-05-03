@@ -1,36 +1,36 @@
 # change the followings to match your Github username and repo name
-baseurl: "/tailpages" # the name of your github repo
-url: "https://harrywang.github.io" # the url of your github pages
+baseurl: "/blog" # the name of your github repo
+url: "https://kailingma.github.io" # the url of your github pages
 
 # site information used in page title, meta data etc.
-title: "Tailpages: Tailwind + Github Pages"
-description: A Github Pages (Jekyll) template based on TailwindCSS
+title: "Kai's Blog"
+description: "Kai's Blog about technology and projects"
 
 # color theme for links
 theme-color: indigo # indigo|yellow|pink|green|stone|
 
 # homepage information
-author: Satoshi Nakamoto
-author-bio: Creator of Bitcoin  # change to false to hide
-author-image: 279.png  # file must be in the /assets/img/ folder
+author: Kai Ling Ma
+author-bio: Outreach and Marketing Director at reFila  # change to false to hide
+author-image: Kai.png  # file must be in the /assets/img/ folder
 
 # navigation menu
 show-nav-menu: true
 
 nav-menu:
 - text: About
-  permalink: about
-- text: Bitcoin
-  permalink: bitcoin
+  permalink: _pages/about
+- text: Projects
+  permalink: _pages/projects
 - text: Blog
   permalink: blog
 
 # use false to turn off any social media links
-twitter: https://twitter.com/
-facebook: https://facebook.com/
-instagram: https://instagram.com/
-github: https://github.com/
-linkedin: https://linkedin.com/
+twitter: false
+facebook: false
+instagram: false
+github: https://github.com/kailingma/
+linkedin: false
 medium: false
 google-scholar: false
 email: false
@@ -40,7 +40,7 @@ footer-msg: "Powered by Tailpages"
 footer-msg-link: https://github.com/harrywang/tailpages
 
 # google analytics
-google-analytics: G-WCRC1TC2V5
+google-analytics: GTM-MP5VQK9X
 
 # jekyll plugins - no need to change
 plugins:
